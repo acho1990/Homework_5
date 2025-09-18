@@ -9,7 +9,8 @@ namespace Homework5
 
             #region Homework1
 
-
+            // შეამოწმეთ იყოფა თუ არა რიცხვი 5ზე უნაშთოდ. რიცხვი უნდა მიიღოთ
+            //კონსოლიდან.
 
             Console.WriteLine("Please, enter number");
             var num = Console.ReadLine();
@@ -27,6 +28,10 @@ namespace Homework5
 
 
             #region Homework2 
+
+            //დაწერეთ ისეთი პროგრამა, რომელიც შეასრულებს ჯამის, სხვაობის,
+            //ნამრავლის და გაყოფის მოქმედებებს.
+            
 
             Console.WriteLine("Calculate the sum of two numbers.");
             var number = Console.ReadLine();
@@ -67,6 +72,8 @@ namespace Homework5
 
             #region Homework3
 
+            //გაუცვალეთ ორ ცვლადს შორის მნიშვნელობები.
+
             Console.WriteLine("Swap values ​​between two variables");
             var x = Console.ReadLine();
             var y = Console.ReadLine();
@@ -80,6 +87,8 @@ namespace Homework5
 
             #region Homework4 - Loops
 
+            //დაწერეთ პროგრამა, რომელიც მიიღებს კონსოლიდან 1 რიცხვს და დაბეჭდავს
+            //გამრავლების ტაბულას ამ რიცხვისთვის.შენიშვნა : გამოიყენეთ ციკლი.
 
             Console.WriteLine("Enter Number");
             var number3 = Console.ReadLine();
@@ -100,6 +109,9 @@ namespace Homework5
 
 
             #region Homework5 
+
+            //დაწერეთ პროგრამა რომელიც იპოვის ყველა ლუწ რიცხვს 1 დან n -მდე და
+            //დაბეჭდავს მათ კვადრატებს .
 
             Console.WriteLine("Enter Number");
             var number4 = Console.ReadLine();
